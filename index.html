@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- EDITA: título que aparece en la pestaña del navegador -->
+    <title>Guest Mero | Portafolio</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============ FONDO ANIMADO (blobs de color) ============ -->
+    <div class="background">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+
+    <!-- ============ NAVEGACIÓN ============ -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+            <a href="#hero" class="logo">GUEST<span>MERO</span></a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#achievements" class="nav-link">Logros</a></li>
+                <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="hero">
+            <div class="hero-content reveal">
+                <p class="hero-greeting">Hola Buenas</p>
+                <!-- EDITA: tu nombre -->
+                <h1 class="hero-title">Guest Mero</h1>
+
+                <!-- EDITA: cambia las frases del efecto typing -->
+                <h2 class="hero-role">
+                    <span id="typedText"></span><span class="cursor">|</span>
+                </h2>
+
+                <!-- EDITA: una frase corta que te describa -->
+                <p class="hero-desc">
+                    Ingeniero en sistema recien egresado con
+                    intension de crecer en el hambito de la tecnologia.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#achievements" class="btn btn-primary">Ver mis logros</a>
+                    <a href="#contact" class="btn btn-ghost">Contáctame</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="avatar-ring">
+                    <!-- EDITA: reemplaza esta imagen por tu foto -->
+                    <img
+                        img src="imagenes/channels4_profile.jpg"
+                        alt="Ilustración de desarrollador">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SOBRE MÍ ============ -->
+        <section class="section" id="about">
+            <div class="section-head reveal">
+                <span class="section-tag">Sobre mí</span>
+                <h2 class="section-title">Quién <span class="gradient-text">soy</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <!-- EDITA: aquí cuenta quién eres -->
+                    <p>
+                        Soy un usuario apacionado con la teconologia, al que le gusta mantenimiento preventivo a tambien a los
+                        equipos de computo, al igual que soy apacionado con los juegos shooters FPS y mas que nada, apacionada por los videojuegos
+                        asi como tambien, me gusta crear contenido en youtube haciendo videos para mi canal.
+
+                    </p>
+
+                    <!-- EDITA: tus datos -->
+                    <ul class="about-facts">
+                        <li><strong>Nombre:</strong> Guest Mero</li>
+                        <li><strong>Rol:</strong> Ingeniero en Sistemas Computacionales</li>
+                        <li><strong>Ubicación:</strong> Mexico</li>
+                        <li><strong>Email:</strong> guest558945@outlook.com</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ LOGROS / EXPERIENCIA ============ -->
+        <section class="section" id="achievements">
+            <div class="section-head reveal">
+                <span class="section-tag">Trayectoria</span>
+                <h2 class="section-title">Mis <span class="gradient-text">logros</span></h2>
+            </div>
+
+            <div class="timeline">
+                <!-- EDITA: copia o edita estos bloques con tus logros -->
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Proyecto destacado</h3>
+                        <p>e sido participe de varios proyectos pequeños, como documentador y programador, asi como tester
+                            de diferentes proyectos agenos
+                        </search></p>
+                    </div>
+                </article>
+
+                
+
+                <article class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Primeros pasos</h3>
+                        <p>al principio me daba bastante miedo todo este rubro de la tecnologia, programacion, documentacion. pruebas y desarrollo e implementacion
+                            me costo un tiempo poder entender y aprender a programar.(todavia me cuesta y no soy un exoerto jeje) pero siempre e sido dedicado
+                            a aprender y mejorar.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ============ HOBBIES ============ -->
+        <section class="section" id="hobbies">
+            <div class="section-head reveal">
+                <span class="section-tag">Fuera del código</span>
+                <h2 class="section-title">Mis <span class="gradient-text">hobbies</span></h2>
+            </div>
+
+            <div class="hobbies-grid">
+                <!-- EDITA: cambia emoji, título y descripción de cada tarjeta -->
+                <div class="hobby-card reveal">
+                    <div class="hobby-icon">🎮</div>
+                    <h3>Videojuegos</h3>
+                    <p>Comoo ya mencione anteriormente, soy un usuario apacioado por los videojuegos, y mas por los juegos shooters FPS
+                        o FPS. juegos como counter blox, strike force, fornite, son varios de algunos juegos que disfruto jugar en mis ratos libres
+
+                    </p>
+                </div>
+                <div class="hobby-card reveal">
+                    <div class="hobby-icon">🎭</div>
+                    <h3>Creacion de Contenido</h3>
+                    <p>Asi como me gusta jugar videojuegos, tambien tengo mi propio canal de youtube donde creo videos sobre lo que mas me gusta,
+                        y los subo en plataformas como youtube o Instagram.
+                    </p>
+                </div>
+        </section>
+
+        <!-- ============ CONTACTO / REDES ============ -->
+        <section class="section" id="contact">
+            <div class="contact-card reveal">
+                <span class="section-tag">Hablemos</span>
+                <h2 class="section-title">Quieres <span class="gradient-text">Contactarme?</span></h2>
+                <p class="contact-desc">
+                    Estoy disponible por si me necesitas, puedes mandarme mensaje en mis redes sociales.
+                </p>
+
+                <!-- EDITA: cambia el correo en el href (mailto:) y el texto -->
+                <a href="mailto:Guest558945@outlook.com" class="btn btn-primary">Guest558945@outlook.com</a>
+
+                <!-- EDITA: reemplaza los "#" por los links de tus perfiles -->
+                <div class="social-links">
+                    <a href="https://github.com/Guest558945" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+                    <a href="https://x.com/GuestMero" class="social-link" target="_blank" rel="noopener" aria-label="X / Twitter">X</a>
+                    <a href="https://www.instagram.com/guest_558945/" class="social-link" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UC5ugLssU7-lIJGaET2r500A" class="social-link" target="_blank" rel="noopener" aria-label="Youtube">Youtube</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Guest Mero. Hecho con mucho ☕</p>
+    </footer>
+
+    <!-- Botón subir -->
+    <button class="to-top" id="toTop" aria-label="Volver arriba">↑</button>
+
+    <script>
+        /* ================= EFECTO TYPING ================= */
+        /* EDITA: frases que se escriben y borran solas en el hero */
+        const phrases = [
+            "Recien egresado de la carrera",
+            "Apacionado con el mantenimiento preventivo a los equipos de computo",
+            "Ingeniero en sistemas",
+            "VideoJugador"
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+        const typedEl = document.getElementById("typedText");
+
+        function typeEffect() {
+            const current = phrases[phraseIndex];
+            if (!deleting) {
+                typedEl.textContent = current.substring(0, charIndex++);
+                if (charIndex > current.length) {
+                    deleting = true;
+                    setTimeout(typeEffect, 1500);
+                    return;
+                }
+            } else {
+                typedEl.textContent = current.substring(0, charIndex--);
+                if (charIndex < 0) {
+                    deleting = false;
+                    phraseIndex = (phraseIndex + 1) % phrases.length;
+                }
+            }
+            setTimeout(typeEffect, deleting ? 50 : 100);
+        }
+        typeEffect();
+
+        /* ================= REVELADO AL SCROLL ================= */
+        const revealEls = document.querySelectorAll(".reveal");
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        revealEls.forEach((el) => observer.observe(el));
+
+        /* ================= CONTADOR DE ESTADÍSTICAS ================= */
+        const stats = document.querySelectorAll(".stat-number");
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                const el = entry.target;
+                const target = +el.dataset.count;
+                let count = 0;
+                const step = Math.max(1, Math.ceil(target / 60));
+                const timer = setInterval(() => {
+                    count += step;
+                    if (count >= target) {
+                        count = target;
+                        clearInterval(timer);
+                    }
+                    el.textContent = count;
+                }, 25);
+                statsObserver.unobserve(el);
+            });
+        }, { threshold: 0.4 });
+        stats.forEach((el) => statsObserver.observe(el));
+
+        /* ================= NAV: MENÚ MÓVIL ================= */
+        const navToggle = document.getElementById("navToggle");
+        const navLinks = document.getElementById("navLinks");
+        navToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+            navToggle.classList.toggle("active");
+        });
+        document.querySelectorAll(".nav-link").forEach((link) => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("open");
+                navToggle.classList.remove("active");
+            });
+        });
+
+        /* ================= NAV: SCROLL + LINK ACTIVO ================= */
+        const navbar = document.getElementById("navbar");
+        const toTop = document.getElementById("toTop");
+        const sections = document.querySelectorAll("section[id]");
+        const menuLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+            navbar.classList.toggle("scrolled", window.scrollY > 50);
+            toTop.classList.toggle("show", window.scrollY > 400);
+
+            let current = "";
+            sections.forEach((sec) => {
+                if (window.scrollY >= sec.offsetTop - 120) current = sec.id;
+            });
+            menuLinks.forEach((link) => {
+                link.classList.toggle("active", link.getAttribute("href") === "#" + current);
+            });
+        });
+
+        toTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        /* ================= AÑO DINÁMICO EN EL FOOTER ================= */
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
